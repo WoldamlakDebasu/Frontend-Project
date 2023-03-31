@@ -1,0 +1,176 @@
+.under-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.underleft {
+   margin-left: 4rem; 
+   margin-top: 3rem;
+   background-color: rgba(3, 252, 36, 0.25);
+   padding: 4rem;
+   box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+.underleft:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.undergrad {
+    margin-top: 200px;
+}
+
+
+/* ########################END OF UNDERGRADUATE PROGRAMS ######################## */
+
+.post-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+
+.postleft {
+    margin-left: 4rem; 
+    margin-top: 3rem;
+    background-color: rgba(3, 252, 36, 0.25);
+    padding: 4rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+ }
+ 
+
+ .postleft:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.postgrad {
+    margin-top: 200px;
+}
+
+/*################################ END OF OUR POSTGRADUATE PROGRAMS ########################3*/
+
+
+.doc-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+
+.docleft {
+    margin-left: 4rem; 
+    margin-top: 3rem;
+    background-color: rgba(3, 252, 36, 0.25);
+    padding: 4rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+ }
+ 
+
+ .docleft:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.doctoral {
+    margin-top: 200px;
+}
+
+
+/* ########################################END OF THE DOCTORAL PART OF THE PAGE########################*/
+
+.research-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+
+
+.research-left {
+    margin-left: 4rem; 
+    margin-top: 3rem;
+    background-color: rgba(3, 252, 36, 0.25);
+    padding: 4rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+ }
+ 
+
+
+ .research-left:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+.research {
+    margin-top: 220px;
+}
+
+
+@media screen and (max-width: 660px) {
+    /* ####################### THE START OF THE PHONE RESOPONSIVE PART OF OUR PAGE SECTION FOR UNDERGRAD PAGE##### */
+
+ .under-body {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .underleft {
+    padding: 0.75rem;
+    font-size: 12px;
+    margin-right: 1rem;
+ }
+
+ .footer h1 ul  {
+    font-size: 14px;
+    text-align: center;
+ }
+
+ .footer ul li a  {
+    text-align: center;
+    margin-left: 3rem;
+    text-decoration: underline;
+ }
+ /* #######################THE END OF OUR PHONE RESPONSIVE UNDERGRAD PAGE ############# */
+
+  /* ####################### THE START OF THE PHONE RESOPONSIVE PART OF OUR PAGE SECTION FOR POSTGRAD PAGE##### */
+ .post-body {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .postleft {
+    padding: 0.75rem;
+    font-size: 12px;
+    margin-right: 1rem;
+ }
+ /* #######################THE END OF OUR PHONE RESPONSIVE POSTGRAD PAGE ############# */
+
+  /* ####################### THE START OF THE PHONE RESOPONSIVE PART OF OUR PAGE SECTION FOR DOCTORAL PAGE##### */
+ .doc-body {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .docleft {
+    padding: 0.75rem;
+    font-size: 12px;
+    margin-right: 1rem;
+ }
+ /* #######################THE END OF OUR PHONE RESPONSIVE DOCTGRAD PAGE ############# */
+
+  /* ####################### THE START OF THE PHONE RESOPONSIVE PART OF OUR PAGE SECTION FOR RESEARCH PAGE##### */
+ .research-body {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .research-left {
+    padding: 0.75rem;
+    font-size: 12px;
+    margin: 2rem auto;
+ }
+
+ /* #######################THE END OF OUR PHONE RESPONSIVE RESEARCH PAGE ############# */
+}
+
+

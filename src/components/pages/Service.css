@@ -1,0 +1,25 @@
+.service {
+    margin-top: 250px;
+}
+
+.service-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-left {
+    margin-left: 4rem;
+    background-color: rgba(51, 200, 255, 0.25);
+}
+
+.service-left:hover {
+   cursor: pointer;
+   box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+.service-left h1, h3{
+    color: blue;
+    padding-left: 4rem;
+}
+
+

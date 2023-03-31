@@ -1,0 +1,260 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.overview {
+    margin-top: 250px;
+}
+
+.overv-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.overv-left {
+    margin-left: 5rem;
+    background-color: rgba(51, 88, 255, 0.25);
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+.overv-left:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.overv-left h1 {
+    padding-left: 10rem;
+    color: blue;
+}
+
+.overv-left h2 {
+    padding-left: 6rem;
+    color: blue;
+}
+
+
+/* #############################################END OF THE OVERVIEW SECTION OF THE PAGE################### */
+
+.undergrad {
+    margin-top: 250px;
+}
+
+.undergrad-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.undergrad-left {
+    margin-left: 4rem;
+    padding: 3rem;
+    background-color: rgba(51, 200, 255, 0.25);
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+.undergrad-left:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+    background-color: aquamarine;
+}
+
+
+
+
+/* ######################################THE END OF THE UNDERGRAD PART ####################### */
+
+.graduate {
+  margin-top:250px;  
+}
+
+
+.grad-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.grad-left {
+    background-color: rgba(51, 200, 255, 0.25);
+    margin-left: 4rem;
+    padding: 3rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+
+.grad-left:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+
+/* ################################THE END OF THE GRADUATE SECTION PART OF OUR PAGE ###################*/
+
+.calendar {
+    margin-top: 250px;
+
+}
+
+
+
+.cal-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.cal-left {
+    margin-left: 4rem;
+    padding: 4rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+    background-color: rgba(51, 200, 255, 0.25);
+}
+
+
+
+.cal-left:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+
+/* ##################################### END OF THE CALENDAR SECTION OF OUR PAGE ############# */
+
+
+.announcement {
+  margin-top: 250px;
+}
+
+
+.announce-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.announce-left {
+   margin-left: 4rem;
+   background-color: rgba(51, 200, 255, 0.25);
+}
+
+
+
+.announce-left h1 {
+    background-color: blue;
+    color: white;
+}
+
+
+
+.announce-right {
+    background-color: rgba(51, 200, 255, 0.25);
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+    padding-left: 1rem;
+ }
+
+
+.announce-right:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(51, 200, 255, 0.25);
+}
+
+
+/* ######################################## THE CONTACT BODY SECTION OF OUR SITE#######################*/
+
+
+.contact-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 250px;
+}
+
+.contact-left {
+   background-color:rgba(51, 88, 255, 0.25);
+   color: black;
+   padding-left: 4rem;
+}
+
+.contact-left h2 {
+    background: slateblue;
+    color: white;
+}
+
+
+@media screen and (max-width: 960px) {
+    
+  .announce-body{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+  }
+
+
+    .cal-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .contact-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grad-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .overv-body{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .undergrad-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .announce-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cal-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grad-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overv-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overv-left {
+        padding: 0.55rem;
+        margin-right: 1.5rem;
+    }
+    .undergrad-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .undergrad-left {
+        margin-right: 1.5rem;
+    }
+}

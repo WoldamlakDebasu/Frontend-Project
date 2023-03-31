@@ -1,0 +1,198 @@
+.ethics {
+    margin-top: 250px;
+}
+
+.ethic-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.ethic-left {
+    background-color: rgba(51, 200, 255, 0.25);
+    margin-left: 4rem;
+    padding: 3rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+.ethic-left:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+/* ######################################## THE END OF THE ETHICS AND ANTICORRUTION PAGE ################*/
+
+
+
+.grievance {
+    margin-top: 250px;
+}
+
+
+.grievance-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.grievance-left {
+    background-color: rgba(51, 200, 255, 0.25);
+    margin-left: 4rem;
+    padding: 3rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+
+.grievance-left:hover {
+   cursor: pointer;
+   background-color: aquamarine;
+}
+
+
+/* ########################################## END OF THE GRIEVANCE SECTION OF OUR PAGE ##################### */
+
+.gender {
+    margin-top: 250px;
+}
+
+.gender-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.gender-left {
+    background-color: rgba(51, 200, 255, 0.25);
+    margin-left: 4rem;
+    padding: 3rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+
+.gender-left:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+/* ############################### THE END OF THE GENDER SECTION OF OUR PAGE########### */
+
+.institution {
+    margin-top: 250px;
+}
+
+.institution-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.institution-left {
+    background-color: rgba(51, 200, 255, 0.25);
+    margin-left: 4rem;
+    padding: 3rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7);
+}
+
+.institution-left:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+/* ################################# THE END OF OUR INSTITUTION PAGE OF OUR SITE ############## */
+
+.legal {
+    margin-top: 250px;
+}
+
+
+.legal-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.legal-left {
+    background-color: rgba(51, 200, 255, 0.25);
+    margin-left: 4rem;
+    padding: 3rem;
+    box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.7); 
+}
+
+.legal-left:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+/* ############################ THE END OF OUR LEGAL PART OF OUR PAGE ######################## */
+
+
+
+@media screen and (max-width: 960px) {
+    .ethic-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+
+    .gender-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+       
+    .grievance-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+
+    .institution-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+
+    .legal-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+    .institution-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+}
+
+@media screen and (max-width: 600px) {
+    .ethic-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .gender-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .grievance-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .institution-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .legal-body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
